@@ -1,0 +1,4 @@
+rootProject.name = 'open-nlp-example'
+include 'named-entity'
+include 'drugs-classifier'
+

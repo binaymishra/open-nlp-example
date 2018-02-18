@@ -1,0 +1,15 @@
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.apache.opennlp:opennlp-tools:1.8.4')
+    testCompile('junit:junit:4.12')
+}
